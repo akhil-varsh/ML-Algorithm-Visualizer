@@ -34,7 +34,6 @@ class GroqAIAssistant:
 
         Dataset Summary:
         {summary}
-
         Please provide:
         1. Key insights about the data structure and quality
         2. Potential data preprocessing steps needed
