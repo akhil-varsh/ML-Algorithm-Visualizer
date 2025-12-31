@@ -61,7 +61,7 @@ class MLAlgorithmVisualizer:
         if np.all(y == y.astype(int)) and unique_values <= 10:
             return "classification"
         
-        # Otherwise, treat as regression
+    
         return "regression"
     
     def train_model(self, algorithm_name, X_train, X_test, y_train, y_test, problem_type):
