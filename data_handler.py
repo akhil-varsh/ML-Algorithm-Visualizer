@@ -8,7 +8,6 @@ import plotly.graph_objects as go
 from plotly.subplots import make_subplots
 
 def load_sample_datasets():
-    """Load sample datasets for demonstration"""
     datasets = {
         "Iris": load_iris(as_frame=True).frame,
         "Wine": load_wine(as_frame=True).frame,
