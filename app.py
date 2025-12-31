@@ -51,7 +51,7 @@ st.markdown("""
 
 def main():
     st.markdown('<h1 class="main-header">🤖 ML Algorithm Visualizer with Groq AI</h1>', unsafe_allow_html=True)
-    st.markdown("**Interactive machine learning visualization with intelligent AI assistance**")
+    st.markdown("Interactive machine learning visualization with intelligent AI assistance")
     
     if 'dataset' not in st.session_state:
         st.session_state.dataset=None
