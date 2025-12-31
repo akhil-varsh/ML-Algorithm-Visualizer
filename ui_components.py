@@ -1,7 +1,7 @@
 import streamlit as st
 import pandas as pd
 import plotly.express as px
-from data_handler import load_sample_datasets, preprocess_data, create_correlation_heatmap, create_distribution_plots, create_pairplot, get_dataset_summary
+from data_handler import load_sample_datasets, preprocess_data, create_correlation_heatmap, create_distribution_plots, create_pairplot
 from ml_algorithms import MLAlgorithmVisualizer
 from groq_assistant import GroqAIAssistant
 
